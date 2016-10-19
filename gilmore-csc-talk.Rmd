@@ -1,0 +1,304 @@
+---
+title: "gilmore-csc-talk"
+author: "Rick O. Gilmore"
+date: "October 19, 2016"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Some problems
+
+## Thinking big...
+
+<div class="centered">
+<img src="https://www.nap.edu/cover/9824/450" height=450px>
+</div>
+
+----
+
+<div class="centered">
+<img src="https://raw.githubusercontent.com/psu-psychology/psy-511-scan-fdns/master/lectures/img/churchland-levels-of-analysis.gif" height=450px>
+</div>
+
+## But...
+
+<div class="centered">
+<img src="http://cdn2.hubspot.net/hub/134568/file-1208368053-jpg/6-blind-men-hans.jpg" height=450px>
+</div>
+
+
+## Challenges
+
+- Collect diverse types of data
+- Some data sensitive
+- Most data collected are from WEIRD populations
+- Collect data in non-electronic formats
+- Electronic formats not readily shareable (FAIR)
+- Vital metadata (geo-, participant-level) often not collected -- unknown-knowns
+
+---- 
+
+- Minimal rewards for data sharing
+- Post hoc sharing hard, time-consuming, expensive
+- "Active" curation not-standardized
+- "Reproducible" workflows not standard practice
+- Lots of data repositories, but no "databservatories"
+- Studies underpowered, findings hard to reproduce/replicate, many/most might be false
+
+----
+
+- Some subfields lack a culture that supports data reuse
+- Don't agree who owns data
+- Hard to link data across time, space (location), individuals, tasks/measures
+- Journals don't always encourage/support/mandate publication of data, detailed methods
+- Many standardized "normed" measures are proprietary/commercial and data underlying norms not available.
+
+----
+
+<div class="centered">
+<img src="http://www.psych-net.com/pics/despair.jpg" height=450px>
+</div>
+
+<div class="notes">
+All of this might lead some of us to despair.
+</div>
+
+----
+
+<div class="centered">
+<img src="https://s-media-cache-ak0.pinimg.com/originals/c7/bc/f4/c7bcf4bdf05111914f7102fa5c1831c2.jpg" height=450px>
+</div>
+
+<div class="notes">
+But I think this means it's time to roll up our sleeves and follow Rosie the Riveter's lead.
+</div>
+
+## Data as "magnets" for scholarship
+
+<div class="centered">
+
+<img src="http://www.cpc.unc.edu/projects/addhealth/logo.png">
+
+<img src="https://nces.ed.gov/surveys/dbimages/ecls.gif">
+
+<img src="http://wordbank.stanford.edu/static/images/walrus.png" height=150px>
+
+<img src="https://talkbank.org/images/talktop.jpg" height=150px>
+</div>
+
+<div class="notes">
+In the language science domain there is the WordBank archive of MacArthur Communicative Development Inventory (M-CDI) data at Stanford, and the TalkBank archive at CMU.
+</div>
+
+----
+
+<div class="centered">
+<img src="img/vocabulary_norms.jpg">
+
+<http://wordbank.stanford.edu/analyses?name=vocab_norms>
+</div>
+
+<div class="notes">
+Look at what we can do when we have large quantities of data that are organized in a database we can query.
+</div>
+
+----
+
+<iframe src="https://nyu.databrary.org/volume/8">
+</iframe>
+
+<div class="notes">
+Or, let's say I want to look at the NIH race and ethnicity participation in Cathie Tamis-Lemonda's longitudinal study.
+</div>
+
+
+----
+
+<iframe src="https://datausa.io/profile/geo/state-college-pa-metro-area/?compare=new-york-ny#demographics">
+</iframe>
+
+<http://datausa.io>
+
+<div class="notes">
+Or, here is an example from datausa.io allowing
+</div>
+
+## Imagine a developmental "Databservatory""
+
+<div class="centered">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/HST-SM4.jpeg" height=450px>
+</div>
+
+----
+
+<div class="centered">
+<img src="http://www.universetoday.com/wp-content/uploads/2008/09/lhc-sim.jpg" width=800px>
+</div>
+
+----
+
+<div class="centered">
+<img src="http://www.nature.com/polopoly_fs/7.14984.1389810620!/image/HiSeqX_Ten_Single_Instrument_630.jpg_gen/derivatives/landscape_630/HiSeqX_Ten_Single_Instrument_630.jpg" height=450px>
+</div>
+
+----
+
+<div class="centered">
+<img src="http://imaging.psu.edu/sites/sleic/files/mri-magnetom-prisma-fit-mediaviewer-01-00273421~10.jpg" height=450px>
+</div>
+
+----
+
+<div class="centered">
+<img src="http://www.humanconnectome.org/img/header-bg.png">
+
+<http://www.humanconnectome.org/>
+</div>
+
+<div class="notes">
+The Human Connectome Project
+</div>
+
+----
+
+<iframe src="http://www.developingconnectome.org/">
+</iframe>
+
+<div class="notes">
+The Developing Human Connectome project in the U.K.
+</div>
+
+----
+
+<iframe src="https://www.med.unc.edu/bric/slide-pages/featured-study/baby-connectome-project">
+</iframe>
+
+<div class="notes">
+The Baby Connectome Project
+</div>
+
+----
+
+<iframe src="https://ndar.nih.gov/">
+</iframe>
+
+<div class="notes">
+The National Database for Autism Research (NDAR)
+</div>
+
+----
+
+<iframe src="https://nyu.databrary.org/">
+</iframe>
+
+<div class="notes">
+The Databrary data library project.
+</div>
+
+## What would our ideal look like?
+
+- Recruiting -- larger, more diverse samples
+- Data collection -- more data types, allow linkage across
+- Data curation/management -- easy/automatic, standardized formats
+- Data sharing -- PI controls when, permission levels
+- Data mining, visualization, linking
+- Search, filter by participant characteristics, tasks/measures, geo/temporal factors
+- Analysis in the "cloud"
+- Automatic versioning, history
+
+----
+
+| Phase      | Problem                  | Solution      |
+|------------|--------------------------|---------------|
+| Recruiting | Diversity, sample size   | FIRSt -> MeeSearch |
+|            | Permission to share/link | Databrary policies |
+| Collection | Non-electronic, formats  | PSU expertise in EMA |
+|            | Geo-, other metadata     | MeeSearch     |
+|            | Reproducible methods     | Video         |
+| Curation   |                          |               |
+|            | Non-reproducible workflows | RStudio, Jupyter |
+| Publication | Hard to share data + workflows | DOIs   |
+| Visualization |                       | Databservatory |
+| Discovery |                           | Databservatory |
+
+## MeeSearch -- "Know thyself"
+
+- Linking researchers with participants (or parents)
+- Participants own/control their data, determine level of sharing
+- Lab, computer/smart-phone based, survey tasks
+- Data visualizations, dashboard
+- 1,000 psych pool/semester, 500K PSU alumni, 1M friends
+
+## Databservatory
+
+- Studies
+    + Measures of People in Settings by Researchers
+- Measures
+    + Spatial/temporal resolution
+    + e.g., questionnaires vs. EEG
+- People
+    + Personal, family, (friend?) characteristics
+- Settings
+    + Places, times
+    
+## Feasibility?
+
+<div class="centered">
+<img src="img/personal-genome-project.jpg" height = 450px>
+</div>
+
+----
+
+<div class="centered">
+<img src="img/open-humans-project.jpg" height = 450px>
+</div>
+
+----
+
+<div class="centered">
+<img src="img/first-families.jpg" height = 450px>
+</div>
+    
+## Using smartphones/tablets/home computers to collect data
+
+<div class="centered">
+<img src="img/dream.jpg" width=800px>
+</div>
+
+----
+
+<div class="centered">
+<a href="https://autismandbeyond.researchkit.duke.edu/">
+<img src="img/autism-and-beyond.jpg" width=800px>
+</a>
+</div>
+
+----
+
+<div class="centered">
+<a href="https://www.mturk.com">
+<img src="img/mturk.jpg" width=800px>
+</a>
+</div>
+
+----
+
+<div class="centered">
+<a href="https://lookit.mit.edu/">
+<img src="img/lookit.jpg" height=500px>
+</a>
+</div>
+
+## New tools for reproducible workflows
+
+<div class="centered">
+<img src="https://www.rstudio.com/wp-content/uploads/2016/09/RStudio-Logo-Blue-Gray-125.png">
+
+<img src="http://jupyter.org/assets/nav_logo.svg">
+
+<img src="img/galaxy-project.jpg">
+</div>
+</div>
