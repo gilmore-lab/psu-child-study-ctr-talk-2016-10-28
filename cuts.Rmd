@@ -1,0 +1,59 @@
+---
+title: "cuts"
+author: "Rick O. Gilmore"
+date: "October 20, 2016"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+##
+
+- "Active" curation not-standardized
+- Lots of data repositories, but no "databservatories"
+- Hard to link data across time, space (location), individuals, tasks/measures
+
+
+<div class="centered">
+<img src="http://imaging.psu.edu/sites/sleic/files/mri-magnetom-prisma-fit-mediaviewer-01-00273421~10.jpg" height=450px>
+</div>
+
+<div class="centered">
+<img src="http://www.nature.com/polopoly_fs/7.14984.1389810620!/image/HiSeqX_Ten_Single_Instrument_630.jpg_gen/derivatives/landscape_630/HiSeqX_Ten_Single_Instrument_630.jpg" height=450px>
+</div>
+
+----
+
+## Questions to ponder
+
+- What data about your question of interest can't/don't you collect but others might?
+- Who owns the data you collect?
+
+----
+
+| Phase      | Problem                  | Solution      |
+|------------|--------------------------|---------------|
+| Recruiting | Diversity, sample size   | FIRSt -> MeeSearch |
+|            | Permission to share/link | Databrary policies |
+| Collection | Non-electronic, formats  | PSU expertise in EMA |
+|            | Geo-, other metadata     | MeeSearch     |
+|            | Reproducible methods     | Video         |
+| Curation   |                          |               |
+|            | Non-reproducible workflows | RStudio, Jupyter |
+| Publication | Hard to share data + workflows | DOIs   |
+| Visualization |                       | Databservatory |
+| Discovery |                           | Databservatory |
+
+## Databservatory
+
+- Studies
+    + Measures of People in Settings by Researchers
+- Measures
+    + Spatial/temporal resolution
+    + e.g., questionnaires vs. EEG
+- People
+    + Personal, family, (friend?) characteristics
+- Settings
+    + Places, times
