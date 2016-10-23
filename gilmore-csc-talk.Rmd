@@ -3,6 +3,7 @@ title: "gilmore-csc-talk"
 author: "Rick O. Gilmore"
 date: "October 19, 2016"
 bibliography: bib/talk.bib
+css: gilmore.css
 output: 
   ioslides_presentation:
     incremental: false
@@ -13,7 +14,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Big dreams
+## Big dreams {.flexbox .vcenter}
 
 <div class="centered">
 <img src="https://www.nap.edu/cover/9824/450" height=450px>
@@ -35,9 +36,11 @@ Even with the domain of neuroscience, we recognize that the phenomena we seek to
 
 ----
 
+<div class="centered"
 <a href="http://doi.org/10.1038/nrn1536">
 <img src="img/grinvald-nrn1536-f7.jpg" height=500px>
 </a>
+</div>
 
 <div class="notes">
 And that no single method we use operates across the spatial and temporal scales of the phenomena we want to understand.
@@ -190,7 +193,7 @@ Gilmore, R. O. (2016). From big data to deep insight in developmental science. W
 
 ## Lessons learned
 
-## Big data developmental studies have long histories
+## Big data developmental studies have long histories {.flexbox .vcenter}
 
 <div class="centered">
 <img src="http://www.cpc.unc.edu/projects/addhealth/logo.png">
@@ -225,6 +228,10 @@ The Baby Connectome Project
 ## Data sharing is part of the solution, but
 
 - We don't agree about who owns data
+    + Participants
+    + Us
+    + Penn State
+    + The taxpayer
 - Minimal rewards for data sharing
 - Post hoc sharing hard, time-consuming, expensive
 
@@ -244,7 +251,7 @@ The National Database for Autism Research (NDAR)
 - Building a culture of reuse, reanalysis, meta-analysis
 - Why share if no one will reuse, build upon?
 
-## Datasets can be "magnets" for scholarship
+## Datasets can be "magnets" for scholarship {.flexbox .vcenter}
 
 <div class="centered">
 
@@ -308,6 +315,20 @@ Or, here is an example from datausa.io.
 ----
 
 <div class="centered">
+<img src="img/databrary-splash.jpg" width=800px>
+</div>
+
+## When asked, most participants say yes {.flexbox .vcenter}
+
+<div class="centered">
+<img src="img/tamis-lemonda-permission.jpg" height=450px>
+</br>
+Tamis-LeMonda, C. (2013). <http://doi.org/10.17910/B7CC74>. 
+</div>
+
+----
+
+<div class="centered">
 <img src="img/personal-genome-project.jpg" width = 800px>
 </div>
 
@@ -337,12 +358,12 @@ The Human Connectome Project
 </a>
 </div>
 
-## People will *volunteer* information we have to pay to get
+## People will *volunteer* information we have to pay to get {.flexbox .vcenter}
 
 <div class="centered">
-<img src="http://lh3.googleusercontent.com/RoMMyCauMaIccoJZEBWPiBi_l9NQL4AAFYEm8orBh9wMruI6oE6Qw_voIHcWAoVptTUR_uLWiz4eMnZt5TfUCcd8WIwfARQGPE4vWt8C">
+<img src="http://lh3.googleusercontent.com/RoMMyCauMaIccoJZEBWPiBi_l9NQL4AAFYEm8orBh9wMruI6oE6Qw_voIHcWAoVptTUR_uLWiz4eMnZt5TfUCcd8WIwfARQGPE4vWt8C" height=225pix>
 
-<img src="http://blog.storyful.com/wp-content/uploads/sites/5/2016/04/Facebook-create.png" height=300px>
+<img src="http://blog.storyful.com/wp-content/uploads/sites/5/2016/04/Facebook-create.png" height=225px>
 </div>
 
 ## Videos of procedures will boost methodological reproducibility
@@ -350,17 +371,17 @@ The Human Connectome Project
 - We just have to record and share them
 - Databrary will store them
 
-## We also need better tools, training
+## We also need better tools, training {.flexbox .vcenter}
 
 <div class="centered">
-<img src="https://www.rstudio.com/wp-content/uploads/2016/09/RStudio-Logo-Blue-Gray-125.png">
+<img src="https://www.rstudio.com/wp-content/uploads/2016/09/RStudio-Logo-Blue-Gray-125.png" height=150px>
 
-<img src="http://jupyter.org/assets/nav_logo.svg">
+<img src="http://jupyter.org/assets/nav_logo.svg" height=150px>
 
-<img src="img/osf.jpg">
+<img src="img/osf.jpg" height=150px>
 </div>
 
-## And, we need to think bigger...
+## And, we need to think bigger... {.flexbox .vcenter}
 
 <div class="centered">
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/HST-SM4.jpeg" height=450px>
@@ -408,12 +429,12 @@ Or, the Large Hadron Collider.
 <img src="http://artwolfe.com/wp-content/uploads/2014/05/MosaicOfChildren-400x500.jpg" height=500px>
 </div>
 
-## What would this micro/macroscope look like?
+## What would this micro/macro/telescope look like?
 
-- Recruiting -- larger, more diverse samples
-- Data collection -- more data types, allow linkage across levels
-- Data curation/management -- easy/automatic, standardized formats
-- Data sharing -- PI controls when, permission levels
+>- Recruiting -- larger, more diverse samples
+>- Data collection -- more data types, allow linkage across levels
+>- Data curation/management -- easy/automatic, standardized formats
+>- Data sharing -- PI controls when, permission levels
 
 ## Envisioning...
 
@@ -426,6 +447,12 @@ Or, the Large Hadron Collider.
 
 <div class="centered">
 <img src="img/first-families.jpg" height = 450px>
+</div>
+
+----
+
+<div class="centered">
+<img src="img/psychology-subject-pool.jpg" height = 450px>
 </div>
 
 ---
@@ -473,12 +500,12 @@ Or, the Large Hadron Collider.
 
 ## The front end
 
-- App/web service
-- Linking researchers with participants (or parents)
-- Participants own/control their data, determine level of sharing
-- Lab, computer/smart-phone based, survey tasks
-- Data visualizations, dashboard
-- 1,000 psych pool/semester, 500K PSU alumni, 1M friends
+>- App/web service (MeeSearch.com)
+>- Linking researchers with participants (or parents)
+>- Participants own/control their data, determine level of sharing (like datawallet.io)
+>- Lab, computer/smart-phone based, survey tasks
+>- Data visualizations, dashboard
+>- 1,000+ psych pool/semester, 500K PSU alumni, 1M friends
 
 ## The middle
 
