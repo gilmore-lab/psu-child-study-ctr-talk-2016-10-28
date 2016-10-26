@@ -14,11 +14,21 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Big dreams {.flexbox .vcenter}
+## The Future of Big Data in Developmental Science -- How do we answer the big questions? {.flexbox .vcenter}
+
+<div class="centered">
+### **Rick O. Gilmore**
+
+Supported by NSF BCE-1147440, NSF BCS-1238599, NICHD U01-HD-076595
+</div>
+
+## Big dreams {.flexbox .vcenter .smaller}
 
 <div class="centered">
 <img src="https://www.nap.edu/cover/9824/450" height=450px>
 </div>
+
+Shonkoff, J. P., & Phillips, D. A. (Eds.). (2000). From neurons to neighborhoods: The science of early childhood development. National Academies Press.
 
 <div class="notes">
 From neurons to neighborhoods.
@@ -131,17 +141,24 @@ And it may often seem like we are the proverbial blind men studying the elephant
 
 [[@szucs_empirical_2016]](http://doi.org/10.1101/071530)
 
-## Challenges...
+## Challenges to replicability
 
 - Still collect data in non-electronic formats
 - Even electronic formats not readily shareable
 - Vital metadata (geo-, participant-level) often not collected
-- "Reproducible" workflows not standard practice; results have limited robustness and generalizability.
+- "Reproducible" workflows not standard practice 
+- Results have limited robustness and generalizability
+- Misunderstanding/agreement about what reproducibility means
 
 ---
 
 - **Methods reproducibility** refers to the provision of enough detail about study procedures and data so the same procedures could, in theory or in actuality, be exactly repeated.
 - **Results reproducibility** (previously described as replicability) refers to obtaining the same results from the conduct of an independent study whose procedures are as closely matched to the original experiment as possible.
+
+[[@goodman_what_2016]](http://doi.org/10.1126/scitranslmed.aaf5027)
+
+----
+
 - **Robustness** refers to the stability of experimental conclusions to variations in either baseline assumptions or experimental procedures. It is somewhat related to the concept of **generalizability** (also known as transportability), which refers to the persistence of an effect in settings different from and outside of an experimental framework.
 
 [[@goodman_what_2016]](http://doi.org/10.1126/scitranslmed.aaf5027)
@@ -159,7 +176,7 @@ All of this might lead some of us to despair.
 ----
 
 <div class="centered">
-<img src="https://s-media-cache-ak0.pinimg.com/originals/c7/bc/f4/c7bcf4bdf05111914f7102fa5c1831c2.jpg" height=450px>
+<img src="https://s-media-cache-ak0.pinimg.com/originals/c7/bc/f4/c7bcf4bdf05111914f7102fa5c1831c2.jpg" height=500px>
 </div>
 
 <div class="notes">
@@ -169,7 +186,7 @@ But I think this means it's time to roll up our sleeves and follow Rosie the Riv
 ----
 
 <div class="centered">
-<img src="https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAgPAAAAJGQyMzkzODg4LTNlZDktNDAwYi1hM2NlLTI2ZGFlZjMxMjBjZg.jpg">
+<img src="https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAgPAAAAJGQyMzkzODg4LTNlZDktNDAwYi1hM2NlLTI2ZGFlZjMxMjBjZg.jpg" height=500px>
 </div>
 
 <div class="notes">
@@ -189,7 +206,7 @@ To answer that, I have to go back in time a bit.
 
 ----
 
-Gilmore, R. O. (2016). From big data to deep insight in developmental science. Wiley Interdisciplinary Reviews: Cognitive Science, 7(2), 112–126. <https://doi.org/10.1002/wcs.1379>
+Gilmore, R. O. (2016). From big data to deep insight in developmental science. *Wiley Interdisciplinary Reviews: Cognitive Science*, *7*(2), 112–126. <https://doi.org/10.1002/wcs.1379>
 
 ## Lessons learned
 
@@ -198,8 +215,13 @@ Gilmore, R. O. (2016). From big data to deep insight in developmental science. W
 <div class="centered">
 <img src="http://www.cpc.unc.edu/projects/addhealth/logo.png">
 
-<img src="https://nces.ed.gov/surveys/dbimages/ecls.gif">
+<img src="https://nces.ed.gov/surveys/dbimages/ecls.gif" height=100pix>
 </div>
+
+## But, big cohort studies have uncertain futures
+
+- [National Children's Study (NCS)](https://www.nichd.nih.gov/research/NCS/Pages/default.aspx)
+- [U.K. Life Study](http://www.nature.com/news/massive-uk-baby-study-cancelled-1.18650)
 
 ## But, big cohort studies have uncertain futures
 
@@ -244,12 +266,19 @@ The Baby Connectome Project
 The National Database for Autism Research (NDAR)
 </div>
 
-## Working with the community essential to change practices
+----
 
-- Journals don't always encourage/support/mandate publication of data, detailed methods
-- Better if we solve this ourselves than suffer a mandate
-- Building a culture of reuse, reanalysis, meta-analysis
+<div class="centered">
+<img src="img/hotel-california-19.jpg" height=400>
+
+>-*"You can checkout any time you like, but you can never leave."*
+
+## Building a culture of reuse, reanalysis, meta-analysis
+
 - Why share if no one will reuse, build upon?
+- Journals don't always encourage/support/mandate publication of data, detailed methods
+- Working with the community essential
+- Better if we solve this ourselves than suffer a mandate
 
 ## Datasets can be "magnets" for scholarship {.flexbox .vcenter}
 
@@ -302,6 +331,27 @@ Or, let's say I want to look at the NIH race and ethnicity participation in Cath
 Or, here is an example from datausa.io.
 </div>
 
+## Video essential
+
+
+- Numeric, text-based measures miss/reduce complexity of behavior
+- Video captures and preserves it
+
+- Replications can fail due to methodological differences
+- Methods sections can't possibly report essential details
+- Video captures and preserves them
+
+[Gilmore et al. talk](https://rawgit.com/databrary/presentations/master/nyu-data-science-reproducibility-16/be-bold.html)
+
+## A reproducible behavioral science must…
+
+- Video record all tasks, measures, and behaviors
+- Share the recordings
+- Share all questionnaires, tasks, displays
+- Share statistical, computational, data workflows
+- Prepare to share from the beginning
+- Seek permission to share data
+
 ## Of course, it's hard(er) to collect and share sensitive or identifiable data
 
 - But, not impossible
@@ -309,16 +359,10 @@ Or, here is an example from datausa.io.
 ----
 
 <div class="centered">
-<img src="https://nyu.databrary.org/web/images/logo/databrary-nav.svg" width=800px>
+<img src="img/databrary-release-levels.jpg" height=500px>
 </div>
 
-----
-
-<div class="centered">
-<img src="img/databrary-splash.jpg" width=800px>
-</div>
-
-## When asked, most participants say yes {.flexbox .vcenter}
+## When asked, most participants say yes {.flexbox .vcenter .smaller}
 
 <div class="centered">
 <img src="img/tamis-lemonda-permission.jpg" height=450px>
@@ -358,7 +402,7 @@ The Human Connectome Project
 </a>
 </div>
 
-## People will *volunteer* information we have to pay to get {.flexbox .vcenter}
+## People will *volunteer* information if they get something of value in return {.flexbox .vcenter}
 
 <div class="centered">
 <img src="http://lh3.googleusercontent.com/RoMMyCauMaIccoJZEBWPiBi_l9NQL4AAFYEm8orBh9wMruI6oE6Qw_voIHcWAoVptTUR_uLWiz4eMnZt5TfUCcd8WIwfARQGPE4vWt8C" height=225pix>
@@ -366,12 +410,14 @@ The Human Connectome Project
 <img src="http://blog.storyful.com/wp-content/uploads/sites/5/2016/04/Facebook-create.png" height=225px>
 </div>
 
-## Videos of procedures will boost methodological reproducibility
+## What is the value of participating in research?
 
-- We just have to record and share them
-- Databrary will store them
+- Contribute to public good
+- Aid discovery
+- Curiosity
+- Help institution
 
-## We also need better tools, training {.flexbox .vcenter}
+## We need better tools, training {.flexbox .vcenter}
 
 <div class="centered">
 <img src="https://www.rstudio.com/wp-content/uploads/2016/09/RStudio-Logo-Blue-Gray-125.png" height=150px>
@@ -381,7 +427,40 @@ The Human Connectome Project
 <img src="img/osf.jpg" height=150px>
 </div>
 
-## And, we need to think bigger... {.flexbox .vcenter}
+## Our measures need to be open, non-proprietary
+
+- Are *your* preferred standardized/normed tasks open, non-proprietary?
+- Can you share the questions/items with colleagues?
+- Are the data underlying the norms openly available?
+- Are the data available in a standard electronic form?
+
+----
+
+- [Wechlser](http://www.pearsonclinical.com/psychology/products/100000310/wechsler-intelligence-scale-for-children-fourth-edition-wisc-iv.html)
+- [Autism Diagnostic Observation Schedule (ADOS)](http://www.wpspublish.com/store/p/2648/autism-diagnostic-observation-schedule-second-edition-ados-2)
+- [MacArthur CDI](http://www.brookespublishing.com/resource-center/screening-and-assessment/cdi/)
+- [Achenbach System of Empirically Based Assessment (ASEBA)](http://www.aseba.org/)
+
+----
+
+- [~~Wechlser~~](http://www.pearsonclinical.com/psychology/products/100000310/wechsler-intelligence-scale-for-children-fourth-edition-wisc-iv.html)
+- [~~Autism Diagnostic Observation Schedule (ADOS)~~](http://www.wpspublish.com/store/p/2648/autism-diagnostic-observation-schedule-second-edition-ados-2)
+- [~~MacArthur CDI~~](http://www.brookespublishing.com/resource-center/screening-and-assessment/cdi/)
+- [~~Achenbach System of Empirically Based Assessment (ASEBA)~~](http://www.aseba.org/)
+
+----
+
+Difficult, if not impossible, to find, aggregate, and reuse/reanalyze data drawn from these standardized measures.
+
+[[@gilmore_big_2016]](http://doi.org/10.1002/wcs.1379)
+
+----
+
+<div class="centered">
+<img src="img/q_logo_banner.png" width=800px>
+</div>
+
+## We need to think bigger... {.flexbox .vcenter}
 
 <div class="centered">
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/HST-SM4.jpeg" height=450px>
@@ -436,12 +515,12 @@ Or, the Large Hadron Collider.
 >- Data curation/management -- easy/automatic, standardized formats
 >- Data sharing -- PI controls when, permission levels
 
-## Envisioning...
+----
 
-- Data mining, visualization, linking
-- Search, filter by participant characteristics, tasks/measures, geo/temporal factors
-- Analysis in the "cloud"
-- Automatic versioning, history
+>- Data mining, visualization, linking
+>- Search, filter by participant characteristics, tasks/measures, geo/temporal factors
+>- Analysis in the "cloud"
+>- Automatic versioning, history
 
 ----
 
@@ -487,6 +566,12 @@ Or, the Large Hadron Collider.
 ----
 
 <div class="centered">
+<img src="img/q_logo_banner.png" width=800px>
+</div>
+
+----
+
+<div class="centered">
 <a href="https://lookit.mit.edu/">
 <img src="img/lookit.jpg" height=500px>
 </a>
@@ -515,6 +600,16 @@ Or, the Large Hadron Collider.
 <img src="img/osf.jpg">
 </div>
 
+----
+
+<div class="centered">
+<img src="img/spatial-temporal-resolution-new.jpg" height=500px>
+</div>
+
+<div class="notes">
+The Databservatory will empower the evaluation and analyses of data streams at multiple levels of spatial and temporal resolution.
+</div>
+
 ## Analytic/visualization/data publication engine
 
 <div class="centered">
@@ -528,6 +623,12 @@ Or, the Large Hadron Collider.
 
 <iframe src="http://datausa.io">
 </iframe>
+
+----
+
+<div class="centered">
+<img src="img/meesearch-databservatory.jpg" height=500px>
+</div>
 
 ## What do you think?
 
@@ -551,7 +652,5 @@ Or, the Large Hadron Collider.
 - [NSF BCS-1238599](http://www.nsf.gov/awardsearch/showAward?AWD_ID=1238599&HistoricalAwards=false)
 - [NICHD U01-HD-076595](https://projectreporter.nih.gov/project_info_description.cfm?aid=8531595&icde=15908155&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC)
 - [Society for Research in Child Development (SRCD)](http://srcd.org)
-- NYU Libraries, NYU IT, IRB, and OSP
-
 
 ## References {.smaller}
