@@ -8,13 +8,14 @@ output:
   ioslides_presentation:
     incremental: false
     widescreen: true
+    logo: img/csc-logo.jpg
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## The Future of Big Data in Developmental Science -- How do we answer the big questions? {.flexbox .vcenter}
+## The future of big data in developmental science -- How do we answer the big questions? {.flexbox .vcenter}
 
 <div class="centered">
 ### **Rick O. Gilmore**
@@ -646,11 +647,5 @@ The Databservatory will empower the evaluation and analyses of data streams at m
 <div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/psu-stats-smacs-2016-talk/master/img/we_research_penn_state_0.jpg" width=800px>
 </div>
-
-## Acknowledgments
-
-- [NSF BCS-1238599](http://www.nsf.gov/awardsearch/showAward?AWD_ID=1238599&HistoricalAwards=false)
-- [NICHD U01-HD-076595](https://projectreporter.nih.gov/project_info_description.cfm?aid=8531595&icde=15908155&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC)
-- [Society for Research in Child Development (SRCD)](http://srcd.org)
 
 ## References {.smaller}
