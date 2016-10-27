@@ -15,15 +15,25 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## The future of big data in developmental science -- How do we answer the big questions? {.flexbox .vcenter}
+##  {.flexbox .vcenter}
 
 <div class="centered">
+<span class="talktitle">
+**The future of big data in developmental science -- Answering the big questions**
+</span>
+
 ### **Rick O. Gilmore**
 
-Supported by NSF BCE-1147440, NSF BCS-1238599, NICHD U01-HD-076595
+*Support*: NSF BCS-1147440, NSF BCS-1238599, NICHD U01-HD-076595
 </div>
 
-## Big dreams {.flexbox .vcenter .smaller}
+## Overview
+
+- Where are we now?
+- Challenges
+- Some thoughts on the future
+
+## Biq questions, big dreams {.flexbox .vcenter .smaller}
 
 <div class="centered">
 <img src="https://www.nap.edu/cover/9824/450" height=450px>
@@ -160,9 +170,17 @@ And it may often seem like we are the proverbial blind men studying the elephant
 
 ----
 
-- **Robustness** refers to the stability of experimental conclusions to variations in either baseline assumptions or experimental procedures. It is somewhat related to the concept of **generalizability** (also known as transportability), which refers to the persistence of an effect in settings different from and outside of an experimental framework.
+- **Robustness** refers to the stability of experimental conclusions to variations in either baseline assumptions or experimental procedures. 
+- **Generalizability** refers to the persistence of an effect in settings different from and outside of an experimental framework.
 
 [[@goodman_what_2016]](http://doi.org/10.1126/scitranslmed.aaf5027)
+
+## Do we have...
+
+- Reproducible methods
+- Reproducible results
+- Robust fundings
+- Generalizable findings
 
 ----
 
@@ -272,7 +290,8 @@ The National Database for Autism Research (NDAR)
 <div class="centered">
 <img src="img/hotel-california-19.jpg" height=400>
 
->-*"You can checkout any time you like, but you can never leave."*
+*"You can checkout any time you like, but you can never leave."*
+</div>
 
 ## Building a culture of reuse, reanalysis, meta-analysis
 
@@ -420,7 +439,7 @@ The Human Connectome Project
 ## We need better tools, training {.flexbox .vcenter}
 
 <div class="centered">
-<img src="https://www.rstudio.com/wp-content/uploads/2016/09/RStudio-Logo-Blue-Gray-125.png" height=150px>
+<img src="https://www.rstudio.com/wp-content/uploads/2016/09/RStudio-Logo-Blue-Gray-125.png">
 
 <img src="http://jupyter.org/assets/nav_logo.svg" height=150px>
 
