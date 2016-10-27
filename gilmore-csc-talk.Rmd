@@ -91,10 +91,10 @@ And it may often seem like we are the proverbial blind men studying the elephant
 
 ## Challenges with 'big data' developmental science
 
-- Collect diverse types of data
-- Must aggregate, link data across **space**, **time**, **individual identities**
-- Data not spatially uniform
-- Time series not uniformly sampled, different sampling intervals
+>- Collect diverse types of data
+>- Must aggregate, link data across **space**, **time**, **individual identities**
+>- Data not spatially uniform
+>- Time series not uniformly sampled, different sampling intervals
 
 ----
 
@@ -144,12 +144,12 @@ And it may often seem like we are the proverbial blind men studying the elephant
 
 ## Challenges to replicability
 
-- Still collect data in non-electronic formats
-- Even electronic formats not readily shareable
-- Vital metadata (geo-, participant-level) often not collected
-- "Reproducible" workflows not standard practice 
-- Results have limited robustness and generalizability
-- Misunderstanding/agreement about what reproducibility means
+>- Still collect data in non-electronic formats
+>- Even electronic formats not readily shareable
+>- Vital metadata (geo-, participant-level) often not collected
+>- "Reproducible" workflows not standard practice 
+>- Results have limited robustness and generalizability
+>- Misunderstanding/agreement about what reproducibility means
 
 ---
 
@@ -278,8 +278,8 @@ The National Database for Autism Research (NDAR)
 
 - Why share if no one will reuse, build upon?
 - Journals don't always encourage/support/mandate publication of data, detailed methods
-- Working with the community essential
-- Better if we solve this ourselves than suffer a mandate
+    + Guidelines for [Transparency and Openness Promotion](https://cos.io/top/#list) from the Center for Open Science (COS)
+- Building community consensus better than centralized mandates
 
 ## Datasets can be "magnets" for scholarship {.flexbox .vcenter}
 
@@ -334,17 +334,15 @@ Or, here is an example from datausa.io.
 
 ## Video essential
 
-
-- Numeric, text-based measures miss/reduce complexity of behavior
-- Video captures and preserves it
-
-- Replications can fail due to methodological differences
-- Methods sections can't possibly report essential details
-- Video captures and preserves them
+>- Numeric, text-based measures miss/reduce complexity of behavior
+>- Video captures and preserves it
+>- Replications can fail due to methodological differences
+>- Methods sections can't possibly report essential details
+>- Video captures and preserves them
 
 [Gilmore et al. talk](https://rawgit.com/databrary/presentations/master/nyu-data-science-reproducibility-16/be-bold.html)
 
-## A reproducible behavioral science must…
+## A robust and reproducible developmental science should…
 
 - Video record all tasks, measures, and behaviors
 - Share the recordings
@@ -417,6 +415,7 @@ The Human Connectome Project
 - Aid discovery
 - Curiosity
 - Help institution
+- How can we better capitalize on the value the public places on our work?
 
 ## We need better tools, training {.flexbox .vcenter}
 
@@ -433,33 +432,21 @@ The Human Connectome Project
 - Are *your* preferred standardized/normed tasks open, non-proprietary?
 - Can you share the questions/items with colleagues?
 - Are the data underlying the norms openly available?
-- Are the data available in a standard electronic form?
 
 ----
 
 - [Wechlser](http://www.pearsonclinical.com/psychology/products/100000310/wechsler-intelligence-scale-for-children-fourth-edition-wisc-iv.html)
 - [Autism Diagnostic Observation Schedule (ADOS)](http://www.wpspublish.com/store/p/2648/autism-diagnostic-observation-schedule-second-edition-ados-2)
 - [MacArthur CDI](http://www.brookespublishing.com/resource-center/screening-and-assessment/cdi/)
-- [Achenbach System of Empirically Based Assessment (ASEBA)](http://www.aseba.org/)
+- [Achenbach System of Empirically Based Assessment (ASEBA), e.g., CBCL, etc.](http://www.aseba.org/)
 
 ----
 
 - [~~Wechlser~~](http://www.pearsonclinical.com/psychology/products/100000310/wechsler-intelligence-scale-for-children-fourth-edition-wisc-iv.html)
 - [~~Autism Diagnostic Observation Schedule (ADOS)~~](http://www.wpspublish.com/store/p/2648/autism-diagnostic-observation-schedule-second-edition-ados-2)
 - [~~MacArthur CDI~~](http://www.brookespublishing.com/resource-center/screening-and-assessment/cdi/)
-- [~~Achenbach System of Empirically Based Assessment (ASEBA)~~](http://www.aseba.org/)
-
-----
-
-Difficult, if not impossible, to find, aggregate, and reuse/reanalyze data drawn from these standardized measures.
-
-[[@gilmore_big_2016]](http://doi.org/10.1002/wcs.1379)
-
-----
-
-<div class="centered">
-<img src="img/q_logo_banner.png" width=800px>
-</div>
+- [~~Achenbach System of Empirically Based Assessment (ASEBA), e.g., CBCL, etc.~~](http://www.aseba.org/)
+- Difficult to find, aggregate across studies, and reuse/reanalyze data drawn from most measures [[@gilmore_big_2016]](http://doi.org/10.1002/wcs.1379)
 
 ## We need to think bigger... {.flexbox .vcenter}
 
